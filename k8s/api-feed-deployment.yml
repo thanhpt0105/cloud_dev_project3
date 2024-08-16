@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       run: udagram-api-feed
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
@@ -46,12 +46,5 @@ spec:
               configMapKeyRef:
                 name: env-secrets
                 key: JWT_SECRET
-        resources:
-          requests:
-            cpu: 200Mi
-            memory: 200Mi
-          limits:
-            cpu: 1500Mi
-            memory: 1500Mi
         ports: 
         - containerPort: 8080
