@@ -46,6 +46,10 @@ Output:
 ```
 describe_hpa.txt
 ```
+**Submit 2:**
+```
+kubectl_hpa.png
+```
 * To verify that you have set up logging with a backend application
 ```bash
 kubectl logs {pod_name}
@@ -53,6 +57,10 @@ kubectl logs {pod_name}
 Screenshot:
 ```
 kubectl_logs.png
+```
+**Submit 2:**
+```
+kubectl_logs_with_api_call.png
 ```
 
 * App URL:
