@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-map
+data:
+  URL: "http://localhost:8100"
+  AWS_BUCKET: arn:aws:s3:::udacity-thanhpt6-tweets-bucket
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default

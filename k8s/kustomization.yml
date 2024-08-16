@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - env-configmap.yml
+  - env-secret.yml
+  - api-feed-deployment.yml
+  - api-feed-service.yml
+  - api-user-deployment.yml
+  - api-user-service.yml
+  - reverseproxy-deployment.yml
+  - reverseproxy-service.yml
+namespace: default
