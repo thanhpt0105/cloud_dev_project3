@@ -1,5 +1,5 @@
 # Workflow name
-name: Reverse Proxy
+name: Frontend
 
 # Triggers for the workflow
 on:

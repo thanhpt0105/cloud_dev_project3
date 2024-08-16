@@ -1,5 +1,5 @@
 # Workflow name
-name: Reverse Proxy
+name: Backend api user
 
 # Triggers for the workflow
 on:
