@@ -44,7 +44,7 @@ jobs:
         run: |
           cd udagram-reverseproxy
           docker build -t reverseproxy .
-          docker tag udagram-api-feed $REGISTRY/$REPOSITORY:$IMAGE_TAG
+          docker tag reverseproxy $REGISTRY/$REPOSITORY:$IMAGE_TAG
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
   # post-build-actions:
   #   needs: [build-and-test-1, build-and-test-2]
